@@ -12,9 +12,9 @@ public class Bullet : MonoBehaviour
         if (collision.CompareTag("Enemy")) //new va cham voi tag enemy thi se bi tru mau
         {
             int damage = Random.Range(minDamage, maxDamage);
-            //collision.GetComponent<Health>().TakeDam(damage);
+            collision.GetComponent<Health>().TakeDam(damage);
             //collision.GetComponent<EnemyController>().TakeDamEffect(damage);
-            //Destroy(gameObject);
+            Destroy(gameObject);
         }
     }
 }

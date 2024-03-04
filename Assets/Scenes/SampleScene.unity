@@ -216,7 +216,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 0
   currentHealth: 0
-  safeTimeDuration: 0
+  healthBar: {fileID: 1206506359}
+  safeTimeDuration: 1
   isDead: 0
   camShake: 0
 --- !u!1 &180871898
@@ -1036,6 +1037,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60ff9f47e41d14bd0809f97800c41533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthText: {fileID: 0}
+  bar: {fileID: 0}
 --- !u!1 &1763836612
 GameObject:
   m_ObjectHideFlags: 0
