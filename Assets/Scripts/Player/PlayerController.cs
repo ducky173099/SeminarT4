@@ -41,8 +41,6 @@ public class PlayerController : MonoBehaviour
         //Debug.Log("dashTime: " + dashTime);
         if (Input.GetKeyDown(KeyCode.Space) && dashTime <= 0) //key space Roll character
         {
-            Debug.Log("GetKeyDown space");
-
             animator.SetBool("Roll", true);
             moveSpeed += dashBoost;
             dashTime = DashTime;
@@ -51,9 +49,6 @@ public class PlayerController : MonoBehaviour
 
         if (dashTime <= 0 && once)
         {
-            Debug.Log("once: " + once);
-
-
             animator.SetBool("Roll", false);
             moveSpeed -= dashBoost;
             once = false;
