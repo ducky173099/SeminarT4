@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Transform target; // Người chơi hoặc đối tượng bạn muốn camera theo dõi
+    public Camera cameraMain;
+    public float followSpeed = 2f;
+    public float yOffset = 0f;
 
-    // Update is called once per frame
+
     void Update()
     {
-        
+        Vector3 newPos = new Vector3(target.position.x, target.position.y + yOffset, -10);
+        cameraMain.transform.position = Vector3.Lerp(cameraMain.transform.position, newPos, followSpeed * Time.deltaTime);
     }
 }
