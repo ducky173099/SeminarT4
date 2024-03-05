@@ -16,13 +16,13 @@ public class Weapon : MonoBehaviour
     // Effect Part 10
     public GameObject fireEffect;
 
-    //public WeaponManager weaponManager;
+    public WeaponManager weaponManager;
     public Transform calculatePoint;
 
 
     private void Start()
     {
-        //weaponManager = FindObjectOfType<WeaponManager>();
+        weaponManager = FindObjectOfType<WeaponManager>();
     }
 
 
@@ -38,6 +38,8 @@ public class Weapon : MonoBehaviour
             //    RotateGun(enemy.position);
             //    Fire();
             //}
+            RotateGun(new Vector3(3,3,3));
+            Fire();
         }
     }
 
@@ -65,8 +67,8 @@ public class Weapon : MonoBehaviour
         // For is for auto fire part
         foreach (Transform spanw in spawnPos)
         {
-            Instantiate(muzzle, spanw.position, transform.rotation, transform);
-            var bullet = Instantiate(projectile, spanw.position, Quaternion.identity);
+            Instantiate(muzzle, spanw.position, transform.rotation, transform);//tao tia lua
+            var bullet = Instantiate(projectile, spanw.position, Quaternion.identity);//spawn dan
             Bullet bulletC = bullet.GetComponent<Bullet>();
             bulletC.minDamage = minDamage;
             bulletC.maxDamage = maxDamage;
