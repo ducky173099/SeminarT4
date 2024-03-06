@@ -11,7 +11,7 @@ public class SpawnerManager : MonoBehaviour
 
     public WeaponManager weaponManager;
 
-    //public List<Spawner> spawners;
+    public List<Spawner> spawners;
 
     private PlayerController player;
     int maxEnemy = 5;
@@ -72,7 +72,7 @@ public class SpawnerManager : MonoBehaviour
             foreach (int index in randomIndex)
             {
                 int randEnemy = UnityEngine.Random.Range(0, enemies.Length);
-                //spawners[index].spawnEnemy(enemies[randEnemy]);
+                spawners[index].spawnEnemy(enemies[randEnemy]); //spawn enemy tai vi tri xuat hien
             }
             timeBtwSpawn = startTimeBtwSpawn;
 
@@ -80,7 +80,7 @@ public class SpawnerManager : MonoBehaviour
             if (roundCount > 10)
             {
                 roundCount = 0;
-                //maxEnemy = Mathf.Max(spawners.Count, maxEnemy + 1);
+                maxEnemy = Mathf.Max(spawners.Count, maxEnemy + 1);//tang maxEnemy sau moi lan roundCount > 10 de tang do kho cho game
             }
         }
         else
