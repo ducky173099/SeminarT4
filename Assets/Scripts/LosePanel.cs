@@ -16,9 +16,9 @@ public class LosePanel : MonoBehaviour
     public void Show()
     {
         gameObject.SetActive(true);
-        //int scoreI = FindObjectOfType<Killed>().currentKilled * 10;
-        //score.text = "You get: " + scoreI.ToString() + " Score";
-        //Time.timeScale = 0;
+        int scoreI = FindObjectOfType<Killed>().currentKilled * 10;
+        score.text = "You get: " + scoreI.ToString() + " Score";
+        Time.timeScale = 0;
     }
 
     public void Hide()
