@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
@@ -18,6 +19,8 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private Rigidbody2D rb;
 
+    public GameObject damPopUp;
+    public LosePanel losePanel;
 
 
     // Start is called before the first frame update
@@ -74,6 +77,20 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    public void TakeDamageEffect(int damage)
+    {
+        if (damPopUp != null)
+        {
+            GameObject instance = Instantiate(damPopUp, transform.position
+                    + new Vector3(UnityEngine.Random.Range(-0.3f, 0.3f), 0.5f, 0), Quaternion.identity);
+            instance.GetComponentInChildren<TextMeshProUGUI>().text = damage.ToString();
+            Animator animator = instance.GetComponentInChildren<Animator>();
+            animator.Play("red");
+        }
+        if (GetComponent<Health>().isDead)
+        {
+            losePanel.Show();
+        }
+    }
 
-  
 }
