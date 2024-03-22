@@ -32,14 +32,14 @@ public class Weapon : MonoBehaviour
         timeBtwShots -= Time.deltaTime;
         if (timeBtwShots <= 0)
         {
-            //Transform enemy = weaponManager.FindNearestEnemy(calculatePoint.position);
-            //if (enemy != null)
-            //{
-            //    RotateGun(enemy.position);
-            //    Fire();
-            //}
-            RotateGun(new Vector3(3,3,3));
-            Fire();
+            Transform enemy = weaponManager.FindNearestEnemy(calculatePoint.position);
+            if (enemy != null)
+            {
+                RotateGun(enemy.position);
+                Fire();
+            }
+            //RotateGun(new Vector3(3,3,3));
+            //Fire();
         }
     }
 
