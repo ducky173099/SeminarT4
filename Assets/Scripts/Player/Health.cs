@@ -25,29 +25,29 @@ public class Health : MonoBehaviour
 
     public void TakeDam(int damage)
     {
-        //if (safeTime <= 0)
-        //{
-        //    currentHealth -= damage;
+        if (safeTime <= 0)
+        {
+            currentHealth -= damage;
 
-        //    if (currentHealth <= 0)
-        //    {
-        //        currentHealth = 0;
-        //        if (this.gameObject.tag == "Enemy")
-        //        {
-        //            FindObjectOfType<WeaponManager>().RemoveEnemyToFireRange(this.transform);
-        //            FindObjectOfType<Killed>().UpdateKilled();
-        //            FindObjectOfType<PlayerExp>().UpdateExperience(UnityEngine.Random.Range(1, 4));
-        //            Destroy(this.gameObject, 0.125f);
-        //        }
-        //        isDead = true;
-        //    }
+            if (currentHealth <= 0)
+            {
+                currentHealth = 0;
+                if (this.gameObject.tag == "Enemy")
+                {
+                    FindObjectOfType<WeaponManager>().RemoveEnemyToFireRange(this.transform);
+                    FindObjectOfType<Killed>().UpdateKilled();
+                    //FindObjectOfType<PlayerExp>().UpdateExperience(UnityEngine.Random.Range(1, 4));
+                    Destroy(this.gameObject, 0.125f);
+                }
+                isDead = true;
+            }
 
-        //    // If player then update health bar
-        //    if (healthBar != null)
-        //        healthBar.UpdateHealth(currentHealth, maxHealth);
+            // If player then update health bar
+            if (healthBar != null)
+                healthBar.UpdateHealth(currentHealth, maxHealth);
 
-        //    safeTime = safeTimeDuration;
-        //}
+            safeTime = safeTimeDuration;
+        }
     }
 
     private void Update()

@@ -1197,15 +1197,25 @@ MonoBehaviour:
   weaponManager: {fileID: 139943362}
   spawners:
   - {fileID: 551705204}
-  - {fileID: 1846678070}
-  - {fileID: 1714833096}
-  - {fileID: 615618721}
-  - {fileID: 127237261}
-  - {fileID: 2131682386}
-  - {fileID: 985603922}
-  - {fileID: 2103171991}
-  - {fileID: 1413842128}
-  - {fileID: 2027075984}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
+  - {fileID: 551705204}
 --- !u!1 &675359108
 GameObject:
   m_ObjectHideFlags: 0
