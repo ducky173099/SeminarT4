@@ -273,7 +273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 120219405}
   - component: {fileID: 120219406}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (12)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -318,7 +318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 127237260}
   - component: {fileID: 127237261}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (5)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -367,7 +367,7 @@ GameObject:
   - component: {fileID: 139943360}
   - component: {fileID: 139943362}
   - component: {fileID: 139943363}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -795,8 +795,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 182.2, y: -144.69}
-  m_SizeDelta: {x: 300, y: 120}
+  m_AnchoredPosition: {x: 182.2, y: -121.32}
+  m_SizeDelta: {x: 297, y: 73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &200451316
 MonoBehaviour:
@@ -936,7 +936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 449910288}
   - component: {fileID: 449910289}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (13)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1148,7 +1148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 551705203}
   - component: {fileID: 551705204}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (1)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1195,7 +1195,7 @@ GameObject:
   - component: {fileID: 572203185}
   - component: {fileID: 572203186}
   - component: {fileID: 572203187}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1442,7 +1442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 615618720}
   - component: {fileID: 615618721}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (4)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1487,7 +1487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 635405642}
   - component: {fileID: 635405643}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1707,7 +1707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 744103891}
   - component: {fileID: 744103892}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (15)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1751,7 +1751,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 795488678}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: WeaponSlot (1)
   m_TagString: Untagged
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
@@ -2035,7 +2035,7 @@ GameObject:
   m_Component:
   - component: {fileID: 877132781}
   - component: {fileID: 877132782}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: FireRange
   m_TagString: FireRange
   m_Icon: {fileID: 0}
@@ -2202,7 +2202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 916356193}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: WeaponSlot (4)
   m_TagString: Untagged
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
@@ -2310,7 +2310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 973401182}
   - component: {fileID: 973401183}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (16)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2355,7 +2355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 985603921}
   - component: {fileID: 985603922}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (7)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2400,7 +2400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1014126281}
   - component: {fileID: 1014126280}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2457,7 +2457,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1023048034}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: WeaponSlot (3)
   m_TagString: Untagged
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
@@ -2488,7 +2488,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1039937693}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: WeaponSlot (2)
   m_TagString: Untagged
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
@@ -2519,7 +2519,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1078649606}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: WeaponManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3190,7 +3190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1413842127}
   - component: {fileID: 1413842128}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (9)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -3261,7 +3261,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -89.2, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1414019863
 MonoBehaviour:
@@ -3336,8 +3336,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 98.9, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 44.23, y: 0}
+  m_SizeDelta: {x: 188.07, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1431101735
 MonoBehaviour:
@@ -3386,15 +3386,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3471,7 +3471,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1523004421}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CalculatePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3503,7 +3503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1607116534}
   - component: {fileID: 1607116535}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3587,7 +3587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1682030524}
   - component: {fileID: 1682030525}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (17)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -3708,7 +3708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1714833095}
   - component: {fileID: 1714833096}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (3)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -3958,7 +3958,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 1
+  m_FillAmount: 0
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -3981,7 +3981,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1846678069}
   - component: {fileID: 1846678070}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (2)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -4310,7 +4310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1938080676}
   - component: {fileID: 1938080677}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (14)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -4354,7 +4354,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1940388437}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4386,7 +4386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2027075983}
   - component: {fileID: 2027075984}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (10)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -4506,7 +4506,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2065779169}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: WeaponSlot (5)
   m_TagString: Untagged
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
@@ -4538,7 +4538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2071088309}
   - component: {fileID: 2071088310}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (11)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -4733,7 +4733,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2103171990}
   - component: {fileID: 2103171991}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (8)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -4778,7 +4778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2110015651}
   - component: {fileID: 2110015652}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (18)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -4891,7 +4891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2131682385}
   - component: {fileID: 2131682386}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Spawner (6)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
