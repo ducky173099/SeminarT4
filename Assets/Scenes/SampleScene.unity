@@ -366,9 +366,10 @@ GameObject:
   - component: {fileID: 139943359}
   - component: {fileID: 139943360}
   - component: {fileID: 139943362}
+  - component: {fileID: 139943363}
   m_Layer: 5
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -390,8 +391,8 @@ MonoBehaviour:
   moveSpeed: 5
   dashBoost: 2
   DashTime: 0.25
-  damPopUp: {fileID: 0}
-  losePanel: {fileID: 0}
+  damPopUp: {fileID: 8097470544423510835, guid: 3cabae39b4c994f1c8f5a60a2f6d5688, type: 3}
+  losePanel: {fileID: 1318081894}
 --- !u!50 &139943359
 Rigidbody2D:
   serializedVersion: 4
@@ -470,6 +471,22 @@ MonoBehaviour:
   - {fileID: 916356193}
   - {fileID: 2065779169}
   Enemies: []
+--- !u!58 &139943363
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139943356}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.14922798}
+  serializedVersion: 2
+  m_Radius: 3.3353305
 --- !u!1 &156996803
 GameObject:
   m_ObjectHideFlags: 0
