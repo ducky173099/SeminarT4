@@ -10,14 +10,14 @@ public class WeaponManager : MonoBehaviour
 
     int currentWeaponSlot = 0;
 
-    //public void AddWeapon(GameObject weaponPrefab) //spawn 
-    //{
-    //    if (currentWeaponSlot < weaponSlots.Count)
-    //    {
-    //        Instantiate(weaponPrefab, weaponSlots[currentWeaponSlot]);
-    //        currentWeaponSlot++;
-    //    }
-    //}
+    public void AddWeapon(GameObject weaponPrefab) //spawn 
+    {
+        if (currentWeaponSlot < weaponSlots.Count)
+        {
+            Instantiate(weaponPrefab, weaponSlots[currentWeaponSlot]);
+            currentWeaponSlot++;
+        }
+    }
 
 
     public void AddEnemyToFireRange(Transform transform) //add nhunwg enemy nam trong khoang dc ban vao list
